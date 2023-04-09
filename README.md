@@ -1,5 +1,5 @@
 <div>
-<h1><strong>A compilation of Technical Articles</strong></h1>
+<h1 align="center"><strong>A compilation of Technical Articles</strong></h1>
 <p>This repository is dedicated to showcasing my technical writing skills and experience. It contains a diverse collection of technical writing samples and projects that demonstrate my expertise in creating clear, concise, and engaging technical content. this repository also includes samples and projects on other technical topics, each organized in its own subfolder for easy navigation and reference. All the web code samples are written in TypeScript
 </p>
 </div>
