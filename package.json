@@ -1,0 +1,23 @@
+{
+  "name": "technical_writing",
+  "version": "1.0.0",
+  "description": "This repository contains a collection of technical writing samples, tutorials, and projects on various topics, showcasing expertise in creating clear, concise, and engaging technical content.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thenextgen1/Technical_Writing.git"
+  },
+  "keywords": [
+    "Technial",
+    "Writing"
+  ],
+  "author": "Elijah Ohiwerei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Thenextgen1/Technical_Writing/issues"
+  },
+  "homepage": "https://github.com/Thenextgen1/Technical_Writing#readme"
+}
