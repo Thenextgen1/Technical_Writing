@@ -138,7 +138,7 @@ const Form = () => {
         <button
           type="submit"
           disabled={isSubmitting}
-          className="text-center my-12 flex-1 w-full bg-eaziGreen hover:bg-lightColor hover:font-semibold rounded-md p-[1rem] px-4 mx-2  text-white cursor-pointer"
+          className="text-center my-12 flex-1 w-full bg-green-700 hover:bg-white hover:text-green-700 hover:border-green-700 hover:border-[1px] hover:font-semibold rounded-md p-[1rem] px-4 mx-2  text-white cursor-pointer"
         >
           Register
         </button>

@@ -27,7 +27,7 @@ const MobileNav = () => {
         <div className="flex flex-col items-center cursor-pointer">
           {session ? (
             <>
-              <p className="my-4 text-eaziDark  ">
+              <p className="my-4 text-black  ">
                 Signed in as {session.user?.email}
               </p>
               <p
@@ -39,10 +39,10 @@ const MobileNav = () => {
             </>
           ) : (
             <>
-              <p className="border-[1px] w-full my-4 text-center py-[10px] text-sm font-medium  border-solid rounded-[24px] px-2 border-eaziGreen">
+              <p className="border-[1px] w-full my-4 text-center py-[10px] text-sm font-medium  border-solid rounded-[24px] px-2 border-green-700">
                 <Link href="/login">Log in</Link>
               </p>
-              <p className="rounded-[24px] my-4 text-white font-medium text-sm shadow-button py-[10px] mx-4 px-2 w-full text-center bg-eaziGreen ">
+              <p className="rounded-[24px] my-4 text-white font-medium text-sm shadow-button py-[10px] mx-4 px-2 w-full text-center bg-green-700 ">
                 <Link href="/register">Register</Link>
               </p>
             </>
