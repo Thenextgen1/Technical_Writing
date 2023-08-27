@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
 import Loader from "../loading";
+import { useSession } from "next-auth/react";
 
 type Inputs = {
   email: string;
@@ -15,6 +16,12 @@ type Inputs = {
 
 const Form = () => {
   const router = useRouter();
+  const session = useSession();
+
+  if (session.status === "authenticated") {
+    router?.push("/my/dashboard");
+  }
+
   const {
     register,
     handleSubmit,
