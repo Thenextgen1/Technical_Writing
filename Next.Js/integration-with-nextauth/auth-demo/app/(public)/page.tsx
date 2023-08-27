@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <main>
-      <h2>Welcome Your are not</h2>
+    <main className="mx-auto mt-4 max-w-5xl px-6">
+      <h2 className="text-2xl font-medium">You are not Signed In</h2>
     </main>
   );
 }
